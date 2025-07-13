@@ -13,7 +13,7 @@ clock = time.Clock()
 # --- Зображення ---
 img_back = "1752269209344.png"
 img_hero = "IMG_20250705_224209.png"
-img_pipe_bottom = "BackgroundEraser_20250706_101302857.png"
+img_pipe_bottom = "BackgroundEraser_20250705_225256229.png"
 img_start_bg = "Screenshot_20250711-234839_1.png"
 img_level_bg = "1752262627624.png"
 img_lock = "BackgroundEraser_20250712_002801347.png"
@@ -31,9 +31,9 @@ back_icon = transform.scale(image.load(img_back_icon), (40, 40))
 
 font_score = font.SysFont("Lato", 36)
 font_start = font.SysFont("Lato", 72)
-#kdferfhethrhgrhythytht
+
 language = "EN"
-#kdferfhethrhgrhythytht
+#gfgje
 # --- Класи ---
 class GameSprite(sprite.Sprite):
     def __init__(self, img, x, y, w, h, speed):
